@@ -5,8 +5,8 @@ import conanImg from './assets/conan.png';
 import fourGuysImg from './assets/4guys.png';
 import winningConversation from './assets/winning-conversation.wav';
 
-const API_URL = 'https://puzzled.directus.app/items/hi_game/?fields=who,audio_file.filename_disk';
-const AUDIO_BASE_URL = 'https://puzzled.directus.app/assets/';
+const API_URL = 'https://directus-production-2218.up.railway.app/items/hi_game/?fields=who,audio_file.filename_disk';
+const AUDIO_BASE_URL = 'https://directus-production-2218.up.railway.app/assets/';
 const TOTAL_ROUNDS = 10;
 
 function App() {
